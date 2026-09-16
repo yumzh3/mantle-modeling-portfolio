@@ -48,4 +48,15 @@ if 'class="natural-data-source"' not in s:
 s=s.replace('from Salters &amp; Stracke (2004)', 'from <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2003GC000597">Salters &amp; Stracke (2004)</a>')
 for prefix in ('melting reactions: ', 'experiments of '):
  s=s.replace(prefix+'Walter (1998)', prefix+'<a href="https://academic.oup.com/petrology/article-abstract/39/1/29/1546015">Walter (1998)</a>')
+intro_references={
+ 'Langmuir, Klein, and Plank (1992)': 'https://doi.org/10.1029/GM071p0183',
+ 'Weaver and Langmuir (1990)': 'https://doi.org/10.1016/0098-3004(90)90074-4',
+}
+def link_intro(match):
+ text=match[0]
+ for label,url in intro_references.items():
+  if f'href="{url}"' not in text:
+   text=text.replace(label,f'<a href="{url}">{label}</a>')
+ return text
+s=re.sub(r'<p class="intro">.*?</p>',link_intro,s,flags=re.S)
 p.write_text(s)
