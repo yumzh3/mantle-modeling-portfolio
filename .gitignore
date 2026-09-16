@@ -1,0 +1,8 @@
+# macOS folder metadata
+.DS_Store
+
+# Unused legacy illustrations (keep locally, exclude from the repository).
+# Remove an entry if the website starts using that asset again.
+/assets/melting.svg
+/assets/crystallization.svg
+/assets/melting-temperature.svg

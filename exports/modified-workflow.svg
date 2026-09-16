@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1015.94 213.99">
+  <!-- Generator: Adobe Illustrator 30.5.1, SVG Export Plug-In . SVG Version: 2.1.4 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #aa4b2c;
+      }
+
+      .st1 {
+        font-size: 14px;
+      }
+
+      .st1, .st2 {
+        fill: #52686a;
+        font-family: AvenirNext-Medium, 'Avenir Next';
+        font-weight: 500;
+      }
+
+      .st1, .st2, .st3 {
+        isolation: isolate;
+      }
+
+      .st4 {
+        fill: #3e3a39;
+      }
+
+      .st5 {
+        fill: #0d5960;
+      }
+
+      .st2, .st3 {
+        font-size: 16px;
+      }
+
+      .st6 {
+        fill: none;
+        stroke: #3e3a39;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .st3 {
+        fill: #173033;
+        font-family: AvenirNext-Bold, 'Avenir Next';
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text class="st3" transform="translate(23.45 92.89)"><tspan x="0" y="0">Mantle source</tspan></text>
+  <text class="st3" transform="translate(231.55 92.89)"><tspan x="0" y="0">Partial melting</tspan></text>
+  <text class="st3" transform="translate(468.88 92.89)"><tspan x="0" y="0">Magma</tspan></text>
+  <text class="st3" transform="translate(652.67 92.89)"><tspan x="0" y="0">Crystallization</tspan></text>
+  <text class="st3" transform="translate(857.03 92.89)"><tspan x="0" y="0">Quenched Melt &amp; </tspan><tspan x="0" y="19.2">crystallized minerals</tspan></text>
+  <text class="st2" transform="translate(11.87 133.89)"><tspan x="0" y="0">Starting composition</tspan></text>
+  <text class="st2" transform="translate(0 157.89)"><tspan x="0" y="0">and mineral assemblage</tspan></text>
+  <text class="st2" transform="translate(225.3 133.89)"><tspan x="0" y="0">Pressure decreases;</tspan></text>
+  <text class="st2" transform="translate(254.16 157.89)"><tspan x="0" y="0">melt forms</tspan></text>
+  <text class="st2" transform="translate(437.86 133.89)"><tspan x="0" y="0">Melts contribute to</tspan></text>
+  <text class="st2" transform="translate(419.96 157.89)"><tspan x="0" y="0">an evolving composition</tspan></text>
+  <text class="st2" transform="translate(655.77 133.89)"><tspan x="0" y="0">Minerals form as</tspan></text>
+  <text class="st2" transform="translate(665.29 157.89)"><tspan x="0" y="0">magma cools</tspan></text>
+  <text class="st2" transform="translate(853.61 133.89)"><tspan x="0" y="0">Chemical signatures</tspan></text>
+  <text class="st2" transform="translate(850.59 157.89)"><tspan x="0" y="0">to compare with data</tspan></text>
+  <text class="st1" transform="translate(171.66 207.89)"><tspan x="0" y="0">Conceptual workflow. Melting and crystallization link source conditions to the compositions measured in rocks.</tspan></text>
+  <rect class="st5" x="57.88" width="40.89" height="57"/>
+  <rect class="st5" x="270.23" width="40.89" height="57"/>
+  <rect class="st0" x="270.23" width="40.89" height="11.34"/>
+  <circle class="st0" cx="498.23" cy="28.5" r="19.51"/>
+  <circle class="st0" cx="704.85" cy="28.5" r="19.51"/>
+  <path class="st5" d="M724.35,28.14c0,10.77-8.73,19.51-19.51,19.51s-19.51-8.73-19.51-19.51"/>
+  <rect class="st5" x="897.72" y="6.11" width="34" height="44.78"/>
+  <polygon class="st0" points="897.72 6.11 906.82 6.11 897.72 15.54 897.72 6.11"/>
+  <polygon class="st0" points="923.1 6.11 931.72 6.11 931.72 13.54 923.1 6.11"/>
+  <polyline class="st0" points="897.72 50.89 907.02 50.89 897.72 41.72"/>
+  <polyline class="st0" points="931.72 50.89 922.55 50.89 931.72 41.03"/>
+  <g>
+    <line class="st6" x1="141.43" y1="28.5" x2="206.48" y2="28.5"/>
+    <path class="st4" d="M205.68,28.5c-2.09-2.09-3.09-6.22-3.17-9.09,2.87,3.85,6.59,7.21,11.09,9.09-4.5,1.8-8.06,5.36-11.09,9.09.25-3.07,1-6.8,3.17-9.09Z"/>
+  </g>
+  <g>
+    <line class="st6" x1="565.45" y1="25.27" x2="630.5" y2="25.27"/>
+    <path class="st4" d="M629.7,25.27c-2.09-2.09-3.09-6.22-3.17-9.09,2.87,3.85,6.59,7.21,11.09,9.09-4.5,1.8-8.06,5.36-11.09,9.09.25-3.07,1-6.8,3.17-9.09Z"/>
+  </g>
+  <g>
+    <line class="st6" x1="774.95" y1="25.27" x2="840" y2="25.27"/>
+    <path class="st4" d="M839.2,25.27c-2.09-2.09-3.09-6.22-3.17-9.09,2.87,3.85,6.59,7.21,11.09,9.09-4.5,1.8-8.06,5.36-11.09,9.09.25-3.07,1-6.8,3.17-9.09Z"/>
+  </g>
+  <g>
+    <polyline class="st6" points="350.48 5.67 362.93 5.67 420.69 25.27 432.11 25.27"/>
+    <path class="st4" d="M431.31,25.27c-2.09-2.09-3.09-6.22-3.17-9.09,2.87,3.85,6.59,7.21,11.09,9.09-4.5,1.8-8.06,5.36-11.09,9.09.25-3.07,1-6.8,3.17-9.09Z"/>
+  </g>
+</svg>
