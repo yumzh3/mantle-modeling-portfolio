@@ -45,4 +45,7 @@ s=s.replace('and P are the values from the previous step', 'and pressure (P) are
 s=s.replace('until both conditions are met.</p>', 'until both conditions are met. The model can simulate both fractional and equilibrium crystallization.</p>')
 if 'class="natural-data-source"' not in s:
  s=s.replace('alt="Natural basalt olivine and modeled olivine Fo and nickel" loading="lazy"></figure></div></div>', 'alt="Natural basalt olivine and modeled olivine Fo and nickel" loading="lazy"></figure></div><p class="natural-data-source">The natural data are from <a href="https://www.nature.com/articles/nature03411">Sobolev et al. (2005)</a>.</p></div>')
+s=s.replace('from Salters &amp; Stracke (2004)', 'from <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2003GC000597">Salters &amp; Stracke (2004)</a>')
+for prefix in ('melting reactions: ', 'experiments of '):
+ s=s.replace(prefix+'Walter (1998)', prefix+'<a href="https://academic.oup.com/petrology/article-abstract/39/1/29/1546015">Walter (1998)</a>')
 p.write_text(s)

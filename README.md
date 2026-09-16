@@ -62,8 +62,8 @@ The website provides references alongside the relevant methods and figures. Sele
 
 - [Langmuir, Klein & Plank (1992)](https://doi.org/10.1029/GM071p0183) — mantle melting framework.
 - [Weaver & Langmuir (1990)](https://doi.org/10.1016/0098-3004(90)90074-4) — magma crystallization modeling.
-- Walter (1998) — melting reactions and experimental melting comparisons.
-- Salters & Stracke (2004) — depleted mantle composition used in the melting example.
+- [Walter (1998)](https://academic.oup.com/petrology/article-abstract/39/1/29/1546015) — melting reactions and experimental melting comparisons.
+- [Salters & Stracke (2004)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2003GC000597) — depleted mantle composition used in the melting example.
 - [Sobolev et al. (2005)](https://www.nature.com/articles/nature03411) — natural data used in the crystallization comparisons.
 - [Beattie (1993)](https://link.springer.com/article/10.1007/bf00712982) and [Matzen et al. (2017)](https://link.springer.com/article/10.1007/s00410-016-1319-8) — nickel partitioning comparisons.
 - [Yu & Langmuir (2023), *Chemical Geology*](https://doi.org/10.1016/j.chemgeo.2023.121745) — nickel partitioning parameterization and its application to basalt and olivine compositions.
