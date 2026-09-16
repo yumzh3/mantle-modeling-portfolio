@@ -10,7 +10,7 @@ The site introduces the modeling methods, visualizes example trajectories, and c
 - **Magma crystallization:** mineral formation and residual magma evolution, with comparisons to natural basalt and olivine compositions.
 - **Nickel partitioning:** equations describing nickel distribution between olivine and melt, and comparisons with previous parameterizations.
 
-Each interactive explorer includes a phase schematic and three linked plots. Use **Play**, **Pause**, **Reset**, or the degree slider to follow the trajectory. Expand the method sections to read the mass-balance relationships and numerical approach.
+Each interactive explorer includes a phase schematic and three linked plots. Both animations start automatically and loop. Use **Pause**, **Play**, **Reset**, or the degree slider to control the trajectory. Expand the method sections to read the mass-balance relationships and numerical approach.
 
 The explorers display precomputed example trajectories; they do not run new geochemical calculations in the browser. Schematic shapes and spatial arrangements are for illustration only. Their colored areas represent phase fractions, while the mineral-proportion plots show proportions normalized within the solid assemblage.
 

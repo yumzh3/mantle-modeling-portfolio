@@ -94,9 +94,10 @@ h1,h2{font-weight:700}.explorer-heading h3,.comparison-figures h3{font-weight:60
 #crystallization,#nickel,#about{position:relative}
 #crystallization:before,#nickel:before,#about:before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:min(var(--content-width),calc(100% - 80px));border-top:1px solid var(--line)}
 #nickel .nickel-intro>div>p,#nickel .ni-equation>p,#nickel .nickel-motivation{font-size:16.32px;font-weight:500;color:var(--ink)}
-#nickel .equations{padding-block:5px;margin-block:5px}#nickel .ni-equation>p{padding-top:5px}
-#nickel .nickel-motivation{margin-top:10px}#nickel .research-figure{margin-top:12px}
-#nickel .nickel-dataset-note{font-size:14.6px;color:var(--ink);width:90%;margin:0 auto}
+#nickel .equations{padding-block:10px;margin-block:10px}#nickel .ni-equation>p{padding-top:5px}
+#nickel .nickel-motivation{margin-top:10px}#nickel .research-figure{margin-top:12px;width:min(976.3px,calc(100vw - 40px));position:relative;left:50%;transform:translateX(-50%)}
+#nickel .research-figure img{width:100%;height:auto;margin-top:20px}
+#nickel .nickel-dataset-note{font-size:14.6px;color:var(--ink);width:90%;margin:0 auto;padding-bottom:15px}
 #about .contact{border:1px solid var(--line);border-radius:12px;padding:28px}
 #about .contact p{font-size:16.32px;font-weight:500;color:var(--muted)}
 footer{border-top:2px solid var(--muted)}.footer-end{display:flex;flex-direction:column;justify-content:space-between;align-items:flex-end;flex-shrink:0}.footer-end small{white-space:nowrap}

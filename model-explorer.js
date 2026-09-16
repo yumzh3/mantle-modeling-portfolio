@@ -257,8 +257,7 @@
       if(Number(slider.value)!==index) render();
       request = requestAnimationFrame(tick);
     }
-    play.addEventListener('click', () => {
-      if (request !== null) { pause(); return; }
+    function start() {
       if (index === data.degree.length - 1) index = 0;
       startTime = null;
       startDegree = data.degree[index];
@@ -266,11 +265,14 @@
       status.textContent = 'Playing on repeat. Select Pause to stop.';
       render();
       request = requestAnimationFrame(tick);
+    }
+    play.addEventListener('click', () => {
+      if (request !== null) pause();
+      else start();
     });
     reset.addEventListener('click', () => { index = 0; pause('Reset to the first model step.'); render(); });
     slider.addEventListener('input', () => { index = Number(slider.value); pause(); render(); });
-    status.textContent = 'Use Play or the degree slider to explore all four panels.';
-    render();
+    start();
     return { pause };
   }
   if (typeof module !== 'undefined' && module.exports) module.exports = { validate, frame, mount, phaseRegions, polygonArea, playbackDegree, trajectoryRegions, advanceRegions };
